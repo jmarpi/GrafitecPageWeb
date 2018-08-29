@@ -5,5 +5,5 @@ from django.shortcuts import render
 def post_principalPage(request):
     return render(request, 'principal/principalPage.html',{})
 
-#def post_nuestrosClientesPage(request):
-#    return render(request,'nuestrosClientes/nuestrosClientesPage',{})
+def post_nuestrosClientesPage(request):
+    return render(request,'nuestrosClientes/nuestrosClientesPage',{})
